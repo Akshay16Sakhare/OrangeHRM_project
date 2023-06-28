@@ -1,0 +1,21 @@
+2023-06-28 15:18:28,353 : INFO : Test_login : Open Browser
+2023-06-28 15:18:33,354 : INFO : Test_login : checking page title
+2023-06-28 15:18:33,360 : INFO : Test_login : test_URL_001 is passed
+2023-06-28 15:18:33,642 : INFO : Test_login : test_URL_001 is completed
+2023-06-28 15:23:36,278 : INFO : Test_login : going to url
+2023-06-28 15:23:36,278 : INFO : Test_login : username entered
+2023-06-28 15:23:36,556 : INFO : Test_login : Open Browser
+2023-06-28 15:23:36,898 : INFO : Test_login : password entered
+2023-06-28 15:23:36,983 : INFO : Test_login : click Login Button
+2023-06-28 15:23:39,352 : INFO : Test_login : test_Login_002 is passed
+2023-06-28 15:23:41,557 : INFO : Test_login : checking page title
+2023-06-28 15:23:41,564 : INFO : Test_login : test_URL_001 is passed
+2023-06-28 15:23:41,833 : INFO : Test_login : test_URL_001 is completed
+2023-06-28 15:25:49,390 : INFO : Test_login : Open Browser
+2023-06-28 15:25:49,669 : INFO : Test_login : going to url
+2023-06-28 15:25:49,670 : INFO : Test_login : username entered
+2023-06-28 15:25:50,305 : INFO : Test_login : password entered
+2023-06-28 15:25:50,399 : INFO : Test_login : click Login Button
+2023-06-28 15:25:54,392 : INFO : Test_login : checking page title
+2023-06-28 15:25:54,399 : INFO : Test_login : test_URL_001 is passed
+2023-06-28 15:25:54,746 : INFO : Test_login : test_URL_001 is completed
