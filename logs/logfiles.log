@@ -19,3 +19,51 @@
 2023-06-28 15:25:54,392 : INFO : Test_login : checking page title
 2023-06-28 15:25:54,399 : INFO : Test_login : test_URL_001 is passed
 2023-06-28 15:25:54,746 : INFO : Test_login : test_URL_001 is completed
+2023-06-28 17:13:50,308 : INFO : Test_login : info
+2023-06-28 17:13:50,309 : WARNING : Test_login : warning
+2023-06-28 17:13:50,309 : ERROR : Test_login : error
+2023-06-28 17:13:50,309 : CRITICAL : Test_login : critical
+2023-06-28 17:13:50,309 : INFO : Test_login : Open Browser
+2023-06-28 17:13:53,731 : INFO : Test_login : going to url
+2023-06-28 17:13:53,731 : INFO : Test_login : username entered
+2023-06-28 17:13:54,876 : INFO : Test_login : password entered
+2023-06-28 17:13:54,959 : INFO : Test_login : click Login Button
+2023-06-28 17:13:55,310 : INFO : Test_login : checking page title
+2023-06-28 17:13:55,317 : INFO : Test_login : test_URL_001 is passed
+2023-06-28 17:13:55,752 : INFO : Test_login : test_URL_001 is completed
+2023-06-28 17:13:57,359 : INFO : Test_login : test_Login_002 Login passed
+2023-06-29 12:27:44,774 : INFO : Test_login : going to url
+2023-06-29 12:27:44,775 : INFO : Test_login : username enteredAdmin
+2023-06-29 12:27:46,055 : INFO : Test_login : password enteredadmin123
+2023-06-29 12:27:46,123 : INFO : Test_login : click Login Button
+2023-06-29 12:29:58,159 : INFO : Test_login : going to url
+2023-06-29 12:29:58,160 : INFO : Test_login : username enteredAdmin
+2023-06-29 12:30:00,291 : INFO : Test_login : info
+2023-06-29 12:30:00,291 : WARNING : Test_login : warning
+2023-06-29 12:30:00,291 : ERROR : Test_login : error
+2023-06-29 12:30:00,292 : CRITICAL : Test_login : critical
+2023-06-29 12:30:00,292 : INFO : Test_login : Open Browser
+2023-06-29 12:30:00,429 : INFO : Test_login : password enteredadmin123
+2023-06-29 12:30:00,509 : INFO : Test_login : click Login Button
+2023-06-29 12:30:03,811 : INFO : Test_login : test_Login_002 Login passed
+2023-06-29 12:30:04,152 : INFO : Test_login : click Menu Button
+2023-06-29 12:30:04,208 : INFO : Test_login : click Logout Button
+2023-06-29 12:30:05,293 : INFO : Test_login : checking page title
+2023-06-29 12:30:05,297 : INFO : Test_login : test_URL_001 is passed
+2023-06-29 12:30:05,614 : INFO : Test_login : test_URL_001 is completed
+2023-06-29 12:35:53,369 : INFO : Test_login : info
+2023-06-29 12:35:53,369 : WARNING : Test_login : warning
+2023-06-29 12:35:53,369 : ERROR : Test_login : error
+2023-06-29 12:35:53,369 : CRITICAL : Test_login : critical
+2023-06-29 12:35:53,369 : INFO : Test_login : Open Browser
+2023-06-29 12:35:58,370 : INFO : Test_login : checking page title
+2023-06-29 12:35:58,376 : INFO : Test_login : test_URL_001 is passed
+2023-06-29 12:35:58,640 : INFO : Test_login : test_URL_001 is completed
+2023-06-29 12:36:02,720 : INFO : Test_login : going to url
+2023-06-29 12:36:02,721 : INFO : Test_login : username enteredAdmin
+2023-06-29 12:36:03,937 : INFO : Test_login : password enteredadmin123
+2023-06-29 12:36:04,015 : INFO : Test_login : click Login Button
+2023-06-29 12:36:08,432 : INFO : Test_login : test_Login_002 Login passed
+2023-06-29 12:36:08,658 : INFO : Test_login : click Menu Button
+2023-06-29 12:36:08,711 : INFO : Test_login : click Logout Button
+2023-06-29 12:36:15,248 : INFO : Test_login : test_Login_002 is completed

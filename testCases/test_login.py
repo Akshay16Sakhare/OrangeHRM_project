@@ -16,6 +16,12 @@ class Test_login:
     logs = LogGen.loggen()
 
     def test_URL_001(self, setup):
+        self.logs.debug("debug")
+        self.logs.info("info")
+        self.logs.warning("warning")
+        self.logs.error("error")
+        self.logs.critical("critical")
+
         self.driver = setup
         self.logs.info("Open Browser")
         time.sleep(5)
@@ -36,9 +42,9 @@ class Test_login:
         self.logs.info("going to url")
         self.driver = setup
         self.login_attribute = LoginPage(self.driver)
-        self.logs.info("username entered")
+        self.logs.info("username entered" + self.get_username)
         self.login_attribute.Enter_username(self.get_username)
-        self.logs.info("password entered")
+        self.logs.info("password entered" + self.get_password)
         self.login_attribute.Enter_password(self.get_password)
         self.logs.info("click Login Button")
         self.login_attribute.Click_login_btn()
@@ -46,13 +52,17 @@ class Test_login:
         if self.login_attribute.Login_status() == True:
             self.logs.info("test_Login_002 Login passed")
             self.driver.save_screenshot(r"C:\Users\Admin\PycharmProjects\Project_orangeHRM\screenshots\test_Login_002_pass.png")
+            self.logs.info("click Menu Button")
             self.login_attribute.Click_menu_btn()
+            self.logs.info("click Logout Button")
             self.login_attribute.Click_logout_btn()
             assert True
         else:
             self.logs.info("test_Login_002 Login failed")
             self.driver.save_screenshot(r"C:\Users\Admin\PycharmProjects\Project_orangeHRM\screenshots\test_Login_002_fail.png")
             assert False
+        self.driver.close()
+        self.logs.info("test_Login_002 is completed")
 
     # def test_Search_user(self,setup):
     #     self.driver = setup
